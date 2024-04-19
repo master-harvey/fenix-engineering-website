@@ -9,7 +9,7 @@ import { FaLink } from "react-icons/fa";
 
 import circuitboard from 'public/circuitboard.jpg'
 import assemblycad from 'public/AssemblyCAD.jpg'
-import monitors from 'public/monitors.jpg'
+import factoryLine from 'public/factoryLine.jpg'
 
 export default function Home() {
   // const [theme, setTheme] = useTheme()
@@ -20,9 +20,9 @@ export default function Home() {
       <Carousel className="max-h-[85vh]" autoplay={true} speed={1000} autoplayInterval={7000} wrapAround={true}>
 
         <div className="relative">
-          <Image src={monitors} className="w-full h-fit max-h-screen object-cover" alt="image 1" />
-          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white px-3">
-            <p className="sm:text-4xl text-3xl font-bold">Are your computers doing all they can?</p>
+          <Image src={factoryLine} className="w-full h-fit max-h-screen object-cover" alt="image 1" />
+          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white bg-gray-800 rounded-xl p-6">
+            <p className="sm:text-4xl text-3xl font-bold">Are your machines working as hard as they can?</p>
             <p className="sm:text-xl font-bold max-w-2xl mt-4">We ensure that you get the most out of your technology, and that your people can focus on what&apos;s most important.</p>
           </div>
         </div>
