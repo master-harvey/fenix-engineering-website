@@ -8,18 +8,13 @@ const config: Config = {
     './public/*.{jpg,jpeg,png,ico}',
   ],
   theme: {
+    colors: {
+      'main': '#2c61a1',
+      'white': '#ffffff',
+    },
     extend: {
       backgroundImage: {
-        'testing': "url('/testing.png')",
-        'process-analysis': "url('/process-analysis.jpeg')",
-        'motorcycle': "url('/motorcycle.jpg')",
-        'gui-girl': "url('/gui.jpg')",
-        'servers': "url('/servers.jpg')",
-        'welder': "url('/welder.jpg')",
-        'ai': "url('/ai.jpg')",
-        'rpa-desk': "url('/monitors1.jpg')",
-        'laptop-terminal': "url('/laptop.jpg')",
-        'stock-tickers': "url('/stock-background-red.jpg')",
+        // 'testing': "url('/testing.png')",
         'gradient-radial': "radial-gradient(var(--tw-gradient-stops))",
         'gradient-conic': "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

@@ -3,18 +3,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import rpa1 from '../../../../public/monitor.jpg'
-import rpa2 from '../../../../public/tablet.jpg'
-
 import { MdArrowUpward, MdArrowDownward, MdFolderCopy, MdQueryBuilder } from "react-icons/md";
 
 export default function Page() {
   return (
-    <main className="dark" data-theme="dark">
+    <main className="dark text-white" data-theme="dark">
 
       <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4">
         <div className="flex flex-col space-y-4">
-          <h1 className="text-6xl text-center font-bold">Robotic Process Automation</h1>
+          <h1 className="text-6xl text-center font-bold">Plating Solutions</h1>
           <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Complete simple, rule based, digital processes by simulating user input.</p>
         </div>
       </div>
@@ -51,7 +48,7 @@ export default function Page() {
           <p className="text-center text-2xl px-12 max-w-2xl mt-8">Is your process ready for automation?</p>
 
           <div className="flex flex-row items-center flex-wrap gap-8 w-fit justify-center">
-            <Image src={rpa1} className="w-full h-fit rounded-xl max-w-xl" alt="RPA1" />
+            {/* <Image src={rpa1} className="w-full h-fit rounded-xl max-w-xl" alt="RPA1" /> */}
             <div className="flex flex-col w-full bg-gray-400 p-8 rounded-xl max-w-xl">
               <p className="text-black text-2xl text-right mr-6 underline">Input</p>
               <p className="text-black">Anything that the program needs to type, click, or interact with will need to be supplied in a very predictable manner. Reading data from a list in an excel spreadsheet, walking through calendar events, or even following a filesystem folder tree are all great starting points.</p>
@@ -63,7 +60,7 @@ export default function Page() {
               <p className="text-black text-2xl ml-6 underline">Output</p>
               <p className="text-black">Watch as the mouse and keyboard move with robotic speed and accuracy, using calendar events to manage project files in an application, downloading product drawings based on part numbers in a BOM, and much more.</p>
             </div>
-            <Image src={rpa2} className="w-full h-fit rounded-xl max-w-xl" alt="RPA2" />
+            {/* <Image src={rpa2} className="w-full h-fit rounded-xl max-w-xl" alt="RPA2" /> */}
           </div>
 
           <Link href="/contact" className="btn btn-outline bg-red-500 text-black w-fit mx-auto hover:text-white hover:bg-black">Contact us to Automate your GUI process</Link>

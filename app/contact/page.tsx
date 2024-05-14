@@ -11,7 +11,7 @@ export default function Page() {
     fetch("REPLACE WITH A LINK TO CONTACT-FENIX-ENGINEERING LAMBDA FUNCTION", {
       method: "PUT", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        name: formData.Name + " | " + formData.Company == "" ? "Not Inc." : formData.Company,
+        name: formData.Name + " | " + formData.Company == "" ? "No Company Provided" : formData.Company,
         replyto: formData.ReplyTo,
         subject: formData.Subject,
         message: formData.Message
@@ -20,7 +20,7 @@ export default function Page() {
   }
 
   return (
-    <main className="bg-gray-900 py-4 px-2 mb-0 w-full">
+    <main className="bg-gray-900 py-4 px-2 mb-0 w-full text-white">
 
       <h1 className="text-4xl font-bold text-center">Contact Us</h1>
 
