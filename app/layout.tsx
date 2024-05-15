@@ -35,16 +35,12 @@ export default function RootLayout({
               <li>
                 <div className="dropdown dropdown-start" id="parentDropdown">
                   <summary tabIndex={0} role="button">Services</summary>
-                  <ul tabIndex={0} className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-10 top-12">
-                    <li>
-                      <ul className="p-2 bg-base-100">
+                  <ul tabIndex={0} className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-10 top-12 border-l-0">
                         <li><Link className="hover:text-white" href="/services/ProcessEquipmentManagement">Process Equipment Management</Link></li>
                         <li><Link className="hover:text-white" href="/services/PlatingSolutions">Plating Solutions</Link></li>
                         <li><Link className="hover:text-white" href="/services/InjectionMoldingSolutions">Injection Molding Solutions</Link></li>
                         <li><Link className="hover:text-white" href="/services/ProcessEquipmentSales">Process Equipment Sales</Link></li>
                         <li><Link className="hover:text-white" href="/services/AutomationAndControls">Automation and Controls</Link></li>
-                      </ul>
-                    </li>
                   </ul>
                 </div>
               </li>
