@@ -24,7 +24,7 @@ export class FenixStack extends Stack {
       role: notifyRole, handler: "main.handler",
       code: lambda.Code.fromAsset("./lambda"),
       runtime: lambda.Runtime.PYTHON_3_9,
-      environment: { "TOPIC": topic.topicArn, "URL": this.node.tryGetContext('URL') }
+      environment: { "TOPIC": topic.topicArn, "URL": "fenixengineeringllc.com" }
     })
     topic.grantPublish(func)
     notifyRole.addToPrincipalPolicy(new iam.PolicyStatement({
