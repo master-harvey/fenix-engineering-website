@@ -7,8 +7,8 @@ export default function Page() {
 
   const { register, handleSubmit, formState: { errors } } = useForm();
   function submitForm(formData: any) {
-    console.log("Form Data:\n", formData)
-    fetch("REPLACE WITH A LINK TO CONTACT-FENIX-ENGINEERING LAMBDA FUNCTION", {
+    // console.log("Form Data:\n", formData)
+    fetch("https://cfog4ogx4qowpbin3jdv3ibiyq0cytkd.lambda-url.us-east-2.on.aws/", {
       method: "PUT", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         name: formData.Name + " | " + formData.Company == "" ? "No Company Provided" : formData.Company,
