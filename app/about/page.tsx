@@ -16,8 +16,8 @@ export default function Page() {
 
         <div className="flex flex-row flex-wrap gap-8 items-center">
           <div className="flex flex-col sm:max-w-2xl xs:max-w-md mx-auto gap-4">
-            <p>We are a team of passionate people whose goal is to revolutionize work, via automation. In business you need to maximize the value you can provide, in the 21st century that means leveraging machines and computing to the fullest extent so that the people in business only need to focus on what is required.</p>
-            <p>Our products are designed for small to medium size companies willing to optimize their performance. Your business can take advantage of technology the same way that huge corporations do, but in an economical way, with Fenix.</p>
+            <p>We have a developed a turnkey, principle driven approach to manufacturing process engineering. We bring Lean manufacturing principles and implement them for our customers. We offer both long and short -term solutions to our customers. Our approach encompasses all aspects of production, from the human factor to the machines used by those operators. Fenix Engineering can also help organizations explore new equipment or automation, through ROI analysis and/or opportunity cost reductions.</p>
+            <p>Fenix Engineering is the “Alpha Predator” of highly automated industrial equipment. Our automation and controls team can troubleshoot across multiple platforms to get your manufacturing line back online. We are frontline integrators and understand PLC control logic and their interactions with industrial components.</p>
           </div>
         </div>
 

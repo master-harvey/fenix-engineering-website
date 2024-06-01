@@ -17,7 +17,7 @@ export default function Page() {
       </div>
 
       <div className="bg-gray-700 py-10 px-4">
-        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">In short, Robotic Process Automation is the technique of writing a program that can read and interact with what is on the screen in the same way that a user does. While RPA is and should only be used as a last resort for processes that cannot be automated with traditional programming, RPA truly opens up the possibilties of virtual automation to all of your favorite uncooperative programs that are essential to your business.</p>
+        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">We provide a wide range of professional services to meet your needs. We can assist with PLC programming, integrations, VFD programming, General Electronics troubleshooting.</p>
 
         <div className="flex flex-row flex-wrap items-top justify-center gap-8">
           <div className="flex flex-col items-center align-middle w-48 border-2 border-red-600 bg-gray-800 rounded-xl p-4 gap-2">

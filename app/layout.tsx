@@ -73,7 +73,7 @@ export default function RootLayout({
             <div className="flex flex-col">
               <Link href="/contact" className="text-main underline">Contact us</Link>
               <p>Denver, CO</p>
-              <p>info@fenix-engineering.com</p>
+              <p>info@fenixengineeringllc.com</p>
             </div>
           </div>
         </footer>

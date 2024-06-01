@@ -17,30 +17,7 @@ export default function Page() {
       </div>
 
       <div className="bg-gray-700 py-10 px-4">
-        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">In short, Robotic Process Automation is the technique of writing a program that can read and interact with what is on the screen in the same way that a user does. While RPA is and should only be used as a last resort for processes that cannot be automated with traditional programming, RPA truly opens up the possibilties of virtual automation to all of your favorite uncooperative programs that are essential to your business.</p>
-
-        <div className="flex flex-row flex-wrap items-top justify-center gap-8">
-          <div className="flex flex-col items-center align-middle w-48 border-2 border-red-600 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdArrowUpward size={40} />
-            <p className="text-xl underline">Enter Data</p>
-            <p>Even with the most uncooperative programs</p>
-          </div>
-          <div className="flex flex-col items-center align-middle w-48 border-2 border-red-800 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdArrowDownward size={40} />
-            <p className="text-xl underline">Collect Data</p>
-            <p>From the web, word documents, photos, databases, and more</p>
-          </div>
-          <div className="flex flex-col items-center align-middle w-48 border-2 border-red-950 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdFolderCopy size={40} />
-            <p className="text-xl text-center underline">Manage Data</p>
-            <p>Manage Projects, Check Quality, and much more</p>
-          </div>
-          <div className="flex flex-col items-center align-middle w-48 border-2 border-black bg-gray-800 rounded-xl p-4 gap-2">
-            <MdQueryBuilder size={40} />
-            <p className="text-xl underline">Save Time</p>
-            <p>Let robots do what they can for you, let people focus on what they have to</p>
-          </div>
-        </div>
+        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">Fenix Engineering has worked with many manufacturers of PU metering equipment.  Even if we can&apos;t solve the problem, there is a good chance we know the people that can fix your machine and get you back online.</p>
 
         <div className="flex flex-col w-fit mx-auto gap-8 mt-8 items-center">
           <p className="text-center px-12 max-w-2xl border-2 border-red-500 rounded-xl border-dashed p-4">Master&apos;s Automation can help you evaluate the processes your business is composed of, and help determine what role automation technology could play at your business.</p>

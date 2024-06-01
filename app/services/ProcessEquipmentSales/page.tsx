@@ -12,12 +12,12 @@ export default function Page() {
       <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4">
         <div className="flex flex-col space-y-4">
           <h1 className="text-6xl text-center font-bold">Process Equipment Sales</h1>
-          <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Complete simple, rule based, digital processes by simulating user input.</p>
+          <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Fenix Engineering work with a variety of distributors and can help you source parts</p>
         </div>
       </div>
 
       <div className="bg-gray-700 py-10 px-4">
-        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">In short, Robotic Process Automation is the technique of writing a program that can read and interact with what is on the screen in the same way that a user does. While RPA is and should only be used as a last resort for processes that cannot be automated with traditional programming, RPA truly opens up the possibilties of virtual automation to all of your favorite uncooperative programs that are essential to your business.</p>
+        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">Given the supply-chain issues of the last few years finding spare parts for equipment has become increasingly difficult.  If you find yourself in that situation Fenix Engineering can aid you in your search.</p>
 
         <div className="flex flex-row flex-wrap items-top justify-center gap-8">
           <div className="flex flex-col items-center align-middle w-48 border-2 border-red-600 bg-gray-800 rounded-xl p-4 gap-2">
