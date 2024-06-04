@@ -3,11 +3,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import tank1 from '@/public/Tank-1.JPG'
-import tank2 from '@/public/Tank-2.JPG'
-import tank3 from '@/public/Tank-3.JPG'
-import plating1 from '@/public/Sample-Matches.JPG'
-import plating2 from '@/public/finished-samples.JPG'
+import tank1 from '@/public/Tank-1.jpg'
+import tank2 from '@/public/Tank-2.jpg'
+import tank3 from '@/public/Tank-3.jpg'
+import plating1 from '@/public/Sample-Matches.jpg'
+import plating2 from '@/public/finished-samples.jpg'
 
 import { MdArrowUpward, MdArrowDownward, MdFolderCopy, MdQueryBuilder } from "react-icons/md";
 
