@@ -1,5 +1,7 @@
 'use client'
 
+import fenixEmergency from '@/public/fenix-emergency.jpg'
+
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -9,8 +11,8 @@ export default function Page() {
   return (
     <main className="dark text-white" data-theme="dark">
 
-      <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4">
-        <div className="flex flex-col space-y-4">
+      <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4 bg-arm-and-press-brake bg-top">
+        <div className="flex flex-col space-y-4 py-2 w-fit px-4 mx-auto bg-gray rounded-xl">
           <h1 className="text-6xl text-center font-bold">Process Equipment Management</h1>
           <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Is your production environment firing on all cylinders?</p>
         </div>
@@ -41,13 +43,15 @@ export default function Page() {
             <p>With our team of technicians at your side you&apos;ll never worry about uptime</p>
           </div>
         </div>
-        <hr className="mx-auto w-[50%]" />
+        
         <div className="flex flex-col w-fit mx-auto gap-8 mt-8 items-center">
-          <p className="text-center text-3xl px-12 max-w-2xl border-2 border-co rounded-xl border-dashed p-4">Emergency Maintenance Services</p>
-
-          <div className="flex flex-col w-full bg-gray-400 p-8 rounded-xl max-w-xl">
-            <p className="text-black text-2xl ml-6 underline">We&apos;re here for you; rain or shine</p>
-            <p className="text-black">Fenix Engineering understands that even when you take care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else wants to.</p>
+          <p className="text-center text-3xl px-12 max-w-2xl border-2 border-info rounded-xl border-dashed p-4">Emergency Maintenance Services</p>
+          <div className="flex flex-row">
+            <div className="flex flex-col w-full bg-gray-400 p-8 rounded-xl max-w-xl">
+              <p className="text-black text-2xl ml-6 underline">We&apos;re here for you, rain or shine</p>
+              <p className="text-black">Fenix Engineering understands that even when you take perfect care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else wants to. We take on Fenix-level emergencies at all hours of the day.</p>
+            </div>
+            <Image alt="Tech Emergency" src={fenixEmergency} width="250" height="250" className="rounded-full" />
           </div>
 
           <Link href="/contact" className="btn btn-outline bg-red-500 text-black w-fit mx-auto hover:text-white hover:bg-black">Contact us to Automate your GUI process</Link>

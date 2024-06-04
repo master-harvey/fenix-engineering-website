@@ -11,10 +11,14 @@ const config: Config = {
     colors: {
       'main': '#2c61a1',
       'white': '#ffffff',
+      'gray': '#1d232a'
     },
     extend: {
       backgroundImage: {
-        // 'testing': "url('/testing.png')",
+        'arm-and-press-brake': "url('/arm-and-press-brake.png')",
+        'big-plating-bath': "url('/big-plating-bath.jpg')",
+        // '': "url('/.png')",
+
         'gradient-radial': "radial-gradient(var(--tw-gradient-stops))",
         'gradient-conic': "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
