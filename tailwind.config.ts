@@ -11,7 +11,20 @@ const config: Config = {
     colors: {
       'main': '#2c61a1',
       'white': '#ffffff',
-      'gray': '#1d232a'
+      'gray': '#1d232a',
+      'dark-gray': '#0c0e11',
+      'mainShade': {
+        100: "#96b0d0", 
+        200: "#80a0c7",
+        300: "#6b90bd",
+        400: "#5681b4",
+        500: "#2c61a1",
+        600: "#285791",
+        700: "#234e81",
+        800: "#1f4471",
+        900: "#1a3a61",
+        950: "#163151"
+      }
     },
     extend: {
       backgroundImage: {

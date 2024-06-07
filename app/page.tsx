@@ -44,22 +44,47 @@ export default function Home() {
         <p className="py-4 px-8 max-w-6xl mx-auto">At Fenix we pride ourselve in our ability to integrate automation solutions quickly, empowering businesses to thrive in the digital era. Our comprehensive suite of services is designed to elevate your business processes and maximize returns through cutting-edge automation technologies. Whether you&apos;re a small startup or an established enterprise, we tailor solutions that align with your unique needs.</p>
         <p className="py-4 px-8 max-w-6xl mx-auto">Here are just a couple of ways that Fenix could help a business that&apos;s ready to start to investing in technology:</p>
 
-        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-600 w-11/12">
-          <Link href="/services/Design/CAD" className="indicator-item indicator-middle badge bg-red-600 p-3 text-white"><FaLink /></Link>
+        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-700 w-11/12 border-mainShade-300 bg-dark-gray">
+          <Link href="/services/ProcessEquipmentManagement" className="indicator-item indicator-middle badge bg-red-700 p-3 text-white border-mainShade-300"><FaLink /></Link>
           <div>
-            <p className="font-bold text-2xl text-gray-300">Robot Arm Integration</p>
-            <p className="">We can help you take a product from napkin drawings to mass production. From conceptualizing product designs to creating realistic prototypes, we bring your ideas to life with precision and creativity. Our end-to-end approach ensures that every aspect of your product, from design to fabrication, is optimized for success. Trust us to turn your vision into reality and propel your products to new heights.</p>
+            <p className="font-bold text-2xl text-gray-300">Maintenance and Management of Process Equipment</p>
+            <p className="">At Fenix Engineering, we understand the critical role that well-maintained process equipment plays in your production line. Our comprehensive maintenance and management services ensure that your equipment operates at peak efficiency, minimizing downtime and maximizing productivity. Our team of experienced engineers conducts regular inspections, preventive maintenance, and timely repairs to keep your operations running smoothly. Trust us to enhance the longevity and reliability of your machinery, allowing you to focus on what you do best—delivering top-quality products to your customers.</p>
           </div>
         </div>
 
-        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-700 w-11/12">
-          <Link href="/services/OfficeAndIndustry/ProcessAnalysis" className="indicator-item indicator-middle badge bg-red-700 p-3 text-white"><FaLink /></Link>
+        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-700 w-11/12 border-mainShade-400 bg-dark-gray">
+          <Link href="/services/ProcessEquipmentSales" className="indicator-item indicator-middle badge bg-red-700 p-3 text-white border-mainShade-400"><FaLink /></Link>
           <div>
-            <p className="font-bold text-2xl text-gray-300">Factory Line Design & Integration</p>
-            <p className="">Uncover hidden potentials within your business operations through our meticulous Process Analysis service. We delve deep into your workflows, identifying areas primed for automation. By streamlining and optimizing your processes, we ensure increased efficiency, reduced operational costs, and enhanced overall productivity. Even if you&apos;re just setting up your production space, a process analysis will help you maximize your potential.</p>
+            <p className="font-bold text-2xl text-gray-300">Process Equipment Sales</p>
+            <p className="">Fenix Engineering is a trusted partner for high-quality process equipment sales. We offer a wide range of state-of-the-art machinery and equipment tailored to meet the unique needs of your industrial operations. Whether you&apos;re looking to upgrade your current equipment or set up a new production line, our expert team will guide you through the selection process, ensuring you get the best solutions for your business. Explore our extensive inventory and discover how our advanced process equipment can boost your efficiency, productivity, and overall operational success.</p>
+          </div>
+        </div>
+
+        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-700 w-11/12 border-mainShade-500 bg-dark-gray">
+          <Link href="/services/InjectionMoldingSolutions" className="indicator-item indicator-middle badge bg-red-700 p-3 text-white border-mainShade-500"><FaLink /></Link>
+          <div>
+            <p className="font-bold text-2xl text-gray-300">Injection Molding Solutions</p>
+            <p className="">Fenix Engineering excels in providing top-tier Injection Molding Solutions tailored to meet your unique production needs. Utilizing the latest technology and our extensive expertise, we guide you from initial design through to mass production. Our precise and efficient injection molding processes ensure consistent quality and optimal performance of your plastic components. Whether you need prototyping or full-scale manufacturing, rely on us to deliver cost-effective, high-precision results that align perfectly with your specifications.</p>
+          </div>
+        </div>
+
+        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-700 w-11/12 border-mainShade-700 bg-dark-gray">
+          <Link href="/services/PlatingSolutions" className="indicator-item indicator-middle badge bg-red-700 p-3 text-white border-mainShade-700"><FaLink /></Link>
+          <div>
+            <p className="font-bold text-2xl text-gray-300">Electroplating Solutions</p>
+            <p className="">Achieve superior surface finishes and enhanced durability with Fenix Engineering&apos;s Electroplating Solutions. Our advanced electroplating services cater to a wide range of industries, providing customized coating solutions that improve the performance and aesthetics of your products. Our team of skilled technicians employs state-of-the-art equipment and techniques to deliver consistent, high-quality results. Whether you need corrosion resistance, wear resistance, or decorative finishes, our electroplating solutions will exceed your expectations and add value to your products.</p>
+          </div>
+        </div>
+
+        <div className="indicator bg-gray-700 p-6 rounded-xl m-4 max-w-6xl mx-auto border-2 border-red-600 w-11/12 border-mainShade-900 bg-dark-gray">
+          <Link href="/services/AutomationAndControls" className="indicator-item indicator-middle badge bg-red-600 p-3 text-white border-mainShade-900"><FaLink /></Link>
+          <div>
+            <p className="font-bold text-2xl text-gray-300">Industrial Automation and Controls</p>
+            <p className="">Transform your production capabilities with Fenix Engineering&apos;s Industrial Automation and Controls. Our advanced automation solutions are designed to optimize your manufacturing processes, increase operational efficiency, and reduce costs. We specialize in implementing sophisticated control systems that enhance precision and reliability across your operations. Whether you&apos;re looking to automate assembly lines or integrate complex monitoring systems, our tailored solutions ensure seamless performance and a competitive edge in your industry.</p>
           </div>
         </div>
       </div>
+
     </main >
   )
 }
