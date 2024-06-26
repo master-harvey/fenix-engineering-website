@@ -8,6 +8,8 @@ import Carousel from "nuka-carousel"
 import { FaLink } from "react-icons/fa";
 
 import factoryLine from '@/public/factoryLine.jpg'
+import platingSolutions from '@/public/big-plating-bath-banner.png'
+import automationControls from '@/public/automation-controls-banner.jpg'
 
 export default function Home() {
   // const [theme, setTheme] = useTheme()
@@ -18,24 +20,26 @@ export default function Home() {
       <Carousel className="max-h-[85vh]" autoplay={true} speed={1000} autoplayInterval={7000} wrapAround={true}>
 
         <div className="relative">
-          <Image src={factoryLine} className="w-full h-fit max-h-screen object-cover" alt="image 1" />
-          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white bg-[#333] rounded-xl p-6">
-            <p className="sm:text-4xl text-3xl font-bold">Are your machines working as hard as they can?</p>
-            <p className="sm:text-xl font-bold max-w-2xl mt-4">We ensure that you get the most out of your technology, and that your people can focus on what&apos;s most important.</p>
+          <Image src={factoryLine} className="w-full h-fit object-cover" alt="image 1" />
+          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white bg-[#333] rounded-xl p-6 mx-10">
+            <p className="sm:text-4xl text-3xl font-bold">Is your facility underproducing?</p>
+            <p className="sm:text-xl font-bold max-w-2xl mt-4">We ensure that you get the most out of your technology, and that your production line stays running</p>
           </div>
         </div>
 
         <div className="relative">
-          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white px-12">
-            <p className="sm:text-4xl text-3xl font-bold">Do you have a mundane digital process?</p>
-            <p className="md:text-xl font-bold max-w-2xl mt-4 xs:hidden">Let us show you how Robotic Process Automation can take care of it for you.</p>
+          <Image src={platingSolutions} className="w-fit h-fit bg-cover" alt="image 2" />
+          <div className="absolute sm:top-1/4 top-2 md:left-20 left-10 text-white bg-[#333] rounded-xl p-6 max-w-2xl mx-10">
+            <p className="sm:text-4xl text-3xl font-bold">Could your plating process be more effective AND more efficient?</p>
+            <p className="md:text-xl font-bold max-w-2xl mt-4 xs:hidden">We are Colorado&apos;s finest plating solutions provider</p>
           </div>
         </div>
 
         <div className="relative">
-          <div className="flex flex-col gap-4 absolute sm:top-1/4 top-2 md:left-20 left-10 text-white px-2">
-            <p className="sm:text-4xl text-3xl font-bold">Is your business built for automation?</p>
-            <p className="sm:text-xl font-bold max-w-2xl mt-4">We apply a Lean Six Sigma mindset to optimize business processes in preparation for automation.</p>
+          <Image src={automationControls} className="w-full h-fit object-cover" alt="image 3" />
+          <div className="flex flex-col gap-4 absolute sm:top-1/4 top-2 md:left-20 left-10 text-white bg-[#333] rounded-xl p-6 mx-10">
+            <p className="sm:text-4xl text-3xl font-bold">Machines got you down?</p>
+            <p className="sm:text-xl font-bold max-w-2xl mt-4">We are here for your business day and night, rain or shine</p>
           </div>
         </div>
       </Carousel>

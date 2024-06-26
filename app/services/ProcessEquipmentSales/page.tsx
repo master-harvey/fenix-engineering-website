@@ -9,10 +9,10 @@ export default function Page() {
   return (
     <main className="dark text-white" data-theme="dark">
 
-      <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4">
-        <div className="flex flex-col space-y-4">
+      <div className="mx-auto py-24 bg-cover px-4 bg-arm-and-press-brake bg-top">
+        <div className="flex flex-col space-y-4 bg-gray rounded-xl p-2 mx-auto w-fit max-w-3xl">
           <h1 className="text-6xl text-center font-bold">Process Equipment Sales</h1>
-          <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Fenix Engineering work with a variety of distributors and can help you source parts</p>
+          <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Fenix Engineering works with a variety of distributors and can help you source parts, and integrate new production lines entirely</p>
         </div>
       </div>
 

@@ -30,6 +30,7 @@ const config: Config = {
       backgroundImage: {
         'arm-and-press-brake': "url('/arm-and-press-brake.png')",
         'big-plating-bath': "url('/big-plating-bath.jpg')",
+        'injection-molding': "url('/injection-molding-edited.png')",
         // '': "url('/.png')",
 
         'gradient-radial': "radial-gradient(var(--tw-gradient-stops))",

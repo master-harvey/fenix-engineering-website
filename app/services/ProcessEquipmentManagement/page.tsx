@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <main className="dark text-white" data-theme="dark">
 
-      <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4 bg-arm-and-press-brake bg-top">
+      <div className="mx-auto py-24 bg-cover px-4 bg-arm-and-press-brake bg-top">
         <div className="flex flex-col space-y-4 py-2 w-fit px-4 mx-auto bg-gray rounded-xl">
           <h1 className="text-6xl text-center font-bold">Process Equipment Management</h1>
           <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Is your production environment firing on all cylinders?</p>

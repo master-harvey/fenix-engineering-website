@@ -9,8 +9,8 @@ export default function Page() {
   return (
     <main className="dark text-white" data-theme="dark">
 
-      <div className="mx-auto bg-rpa-desk py-24 bg-cover px-4">
-        <div className="flex flex-col space-y-4">
+      <div className="mx-auto bg-injection-molding py-24 bg-cover px-4">
+        <div className="flex flex-col space-y-4 bg-gray rounded-xl p-2 mx-auto w-fit max-w-3xl">
           <h1 className="text-6xl text-center font-bold">Injection Molding Solutions</h1>
           <p className="px-8 py-4 bg-red-400 w-fit mx-auto rounded-md text-black text-center">Complete simple, rule based, digital processes by simulating user input.</p>
         </div>
