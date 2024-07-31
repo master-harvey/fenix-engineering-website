@@ -10,7 +10,6 @@ export default function Page() {
   return (
     <main className="py-10 text-white">
       <p className="text-4xl font-bold text-center">About Us</p>
-      <p className="text-xl font-bold text-center">We do work</p>
 
       <div className="flex flex-col items-center p-8 gap-20">
 
@@ -18,16 +17,6 @@ export default function Page() {
           <div className="flex flex-col sm:max-w-2xl xs:max-w-md mx-auto gap-4">
             <p>We have a developed a turnkey, principle driven approach to manufacturing process engineering. We bring Lean manufacturing principles and implement them for our customers. We offer both long and short -term solutions to our customers. Our approach encompasses all aspects of production, from the human factor to the machines used by those operators. Fenix Engineering can also help organizations explore new equipment or automation, through ROI analysis and/or opportunity cost reductions.</p>
             <p>Fenix Engineering is the “Alpha Predator” of highly automated industrial equipment. Our automation and controls team can troubleshoot across multiple platforms to get your manufacturing line back online. We are frontline integrators and understand PLC control logic and their interactions with industrial components.</p>
-          </div>
-        </div>
-
-        <div className="w-full">
-          <p className="text-4xl font-bold text-center mb-4">Our Partners</p>
-          <div className="flex flex-row flex-wrap-reverse gap-8 items-center w-full">
-            <div className="flex flex-col sm:max-w-2xl xs:max-w-md mx-auto gap-4">
-              <p className="text-4xl font-bold">Master&apos;s Automation (Placeholder)</p>
-              <p>Digital Automation solutions for any size business</p>
-            </div>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ import fenixEmergency from '@/public/fenix-emergency.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { MdArrowUpward, MdArrowDownward, MdFolderCopy, MdQueryBuilder } from "react-icons/md";
+import { MdMenuBook, MdOutlinePlumbing, MdOutlineSettings, MdQueryBuilder } from "react-icons/md";
 
 export default function Page() {
   return (
@@ -23,17 +23,17 @@ export default function Page() {
 
         <div className="flex flex-row flex-wrap items-top justify-center gap-8 mb-8">
           <div className="flex flex-col items-center align-middle w-48 border-2 border-red-600 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdArrowUpward size={40} />
+            <MdMenuBook size={40} />
             <p className="text-xl underline">Train</p>
             <p>We will train your employees to get the most out of your equipment</p>
           </div>
           <div className="flex flex-col items-center align-middle w-48 border-2 border-red-800 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdArrowDownward size={40} />
+            <MdOutlinePlumbing size={40} />
             <p className="text-xl underline">Maintain</p>
             <p>Fenix can maintain your equipment if you don&apos;t have the staff to do so</p>
           </div>
           <div className="flex flex-col items-center align-middle w-48 border-2 border-red-950 bg-gray-800 rounded-xl p-4 gap-2">
-            <MdFolderCopy size={40} />
+            <MdOutlineSettings size={40} />
             <p className="text-xl text-center underline">Reliability</p>
             <p>We will ensure your equipment works longer and harder than expected</p>
           </div>
@@ -49,12 +49,12 @@ export default function Page() {
           <div className="flex flex-row">
             <div className="flex flex-col w-full bg-gray-400 p-8 rounded-xl max-w-xl">
               <p className="text-black text-2xl ml-6 underline">We&apos;re here for you, rain or shine</p>
-              <p className="text-black">Fenix Engineering understands that even when you take perfect care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else wants to. We take on Fenix-level emergencies at all hours of the day.</p>
+              <p className="text-black">Fenix Engineering understands that even when you take exceptional care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else can make it out. Fenix Engineering can support your machines at all hours of the day. Fenix Engineering also utilizes Rockwell Automation&apos;s <a href="https://fiixsoftware.com/">Fiix</a> CMMS platform to ensure we deliver complete and consistent service.</p>
             </div>
             <Image alt="Tech Emergency" src={fenixEmergency} width="250" height="250" className="rounded-full" />
           </div>
 
-          <Link href="/contact" className="btn btn-outline bg-red-500 text-black w-fit mx-auto hover:text-white hover:bg-black">Contact us to Automate your GUI process</Link>
+          {/* <Link href="/contact" className="btn btn-outline bg-red-500 text-black w-fit mx-auto hover:text-white hover:bg-black">Contact us to Automate your GUI process</Link> */}
         </div>
       </div>
 
