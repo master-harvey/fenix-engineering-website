@@ -16,12 +16,12 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-gray-700 px-4">
-        <p className="text-black text-xl mx-auto max-w-3xl mb-10 bg-gray-400 rounded-xl p-4">We provide a wide range of professional services to meet your needs. We can assist with PLC programming, new equipment integrations, VFD setup, general electronics troubleshooting, and much more.</p>
+      <div className="bg-gray-700 px-4 max-w-3xl mx-auto">
+        <p className="text-black text-xl mx-auto mb-10 bg-gray-400 rounded-xl">We provide a wide range of professional services to meet your needs. We can assist with PLC programming, new equipment integrations, VFD setup, general electronics troubleshooting, and much more. Whether your equipment needs in house or remote support, Fenix Engineering is here for you.</p>
 
         <div className="flex flex-col w-fit mx-auto gap-8 mt-8 items-center">
-          <p className="text-center text-2xl px-12 max-w-2xl mt-8">We specialize in error prevention</p>
-          <p className="text-xl max-w-2xl mt-8">If your facility doesn&apos;t see the level of maintenance you&apos;d like to see then Fenix Engineering can put together a comprehensive maintenance plan for your business and provide the manpower to execute it, with minimal interruptions and downtime.</p>
+          <p className="text-center text-2xl mt-8">We specialize in error prevention</p>
+          <p className="text-xl my-2">If your facility doesn&apos;t see the level of maintenance you&apos;d like to see then Fenix Engineering can put together a comprehensive maintenance plan for your business and provide the manpower to execute it, with minimal interruptions and downtime.</p>
         </div>
       </div>
 
