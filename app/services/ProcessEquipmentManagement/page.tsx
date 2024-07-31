@@ -49,7 +49,7 @@ export default function Page() {
           <div className="flex flex-row">
             <div className="flex flex-col w-full bg-gray-400 p-8 rounded-xl max-w-xl">
               <p className="text-black text-2xl ml-6 underline">We&apos;re here for you, rain or shine</p>
-              <p className="text-black">Fenix Engineering understands that even when you take exceptional care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else can make it out. Fenix Engineering can support your machines at all hours of the day. Fenix Engineering also utilizes Rockwell Automation&apos;s <a href="https://fiixsoftware.com/">Fiix</a> CMMS platform to ensure we deliver complete and consistent service.</p>
+              <p className="text-black">Fenix Engineering understands that even when you take exceptional care of your equipment, things are going to break from time to time, and those times can be inconvenient at best.  We can service electrical, hydraulic, and pneumatic systems even at times when nobody else can make it out. Fenix Engineering can support your machines at all hours of the day. Fenix Engineering also utilizes Rockwell Automation&apos;s <Link href="https://fiixsoftware.com/">Fiix</Link> CMMS platform to ensure we deliver complete and consistent service.</p>
             </div>
             <Image alt="Tech Emergency" src={fenixEmergency} width="250" height="250" className="rounded-full" />
           </div>

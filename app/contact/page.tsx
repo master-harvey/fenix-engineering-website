@@ -11,7 +11,7 @@ export default function Page() {
     fetch("https://cfog4ogx4qowpbin3jdv3ibiyq0cytkd.lambda-url.us-east-2.on.aws/", {
       method: "PUT", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        name: formData.Name + " | " + formData.Company == "" ? "No Company Provided" : formData.Company,
+        name: formData.Name + " | " + (formData.Company == "" ? "No Company Provided" : formData.Company),
         replyto: formData.ReplyTo,
         subject: formData.Subject,
         message: formData.Message
