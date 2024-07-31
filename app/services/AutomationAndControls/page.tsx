@@ -17,7 +17,7 @@ export default function Page() {
       </div>
 
       <div className="bg-gray-700 px-4 max-w-3xl mx-auto">
-        <p className="text-black text-xl mx-auto mb-10 bg-gray-400 rounded-xl">We provide a wide range of professional services to meet your needs. We can assist with PLC programming, new equipment integrations, VFD setup, general electronics troubleshooting, and much more. Whether your equipment needs in house or remote support, Fenix Engineering is here for you.</p>
+        <p className="text-black text-xl mx-auto mb-10 bg-gray-400 rounded-xl">We provide a wide range of professional services to meet your needs. We can assist with PLC programming, new equipment integrations, VFD setup, general electronics troubleshooting, and much more. Whether your equipment needs in house or remote support, Fenix Engineering can troubleshoot and determine whatever the problem may be.</p>
 
         <div className="flex flex-col w-fit mx-auto gap-8 mt-8 items-center">
           <p className="text-center text-2xl mt-8">We specialize in error prevention</p>
